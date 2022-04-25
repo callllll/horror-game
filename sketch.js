@@ -5,7 +5,7 @@ var click3;
 var clickImg;
 
 function preload(){
-  clickImg = loadImage('./logo.png');
+  choice1 = loadImage('assets/choice1.png');
 }
 function setup() {
   createCanvas(400, 400);
@@ -104,4 +104,5 @@ function draw() {
   click3.draw();
   click4.draw();
   click5.draw();
+  image(choice1, mouseX, mouseY)
 }
